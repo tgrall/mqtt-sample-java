@@ -8,7 +8,7 @@ import org.eclipse.paho.client.mqttv3.MqttException;
  * Basic launcher for Publisher and Subscriber
  */
 public class MqttApp {
-
+  private static final String API_TOKEN = "AIzaSyAQfxPJiounkhOjODEO5ZieffeBv6yft2Q";
   public static void main(String[] args) throws MqttException {
 
     if (args.length < 1) {
